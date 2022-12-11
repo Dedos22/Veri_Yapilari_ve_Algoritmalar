@@ -1,0 +1,37 @@
+INSERTION SORT
+SORU-1) 
+[22,27,16,2,18,6] =>İnsertion sort
+1.adım 22,27,16,2,18,6    (22 ve 27 karşılaştırılır.Yer değiştirmez)
+2.adım 22,16,27,2,18,6   (27 ve 16 karşılaştırılır.ve yer değiştirirler)
+3.adım 16,22,27,2,18,6    (16 ve 22 karşılaştırılır ve yer değiştirirler.)
+4.adım  16,22,2,27,18,6 
+5.adım  16,2,22,27,18,6	
+6.adım  2,16,22,27,18,6
+7.adım 2,16,22,18,27,6
+8.adım 2,16,18,22,27,6
+9.adım 2,16,18,22,6,27
+10.adım 2,16,18,6,22,27
+11.adım 2,16,6,18,22,27
+12.adım 2,6,16,18,22,27
+
+SORU-2)Big-o Gösterimi O(n)
+
+SORU-3) Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız
+Average case: Aradığımız sayının ortada olması
+
+SELECTİON SORT
+ İlk elemanının en küçük eleman olduğunu varsayıyor. Ardından tek tek bu elemanı diğer elemanlarla karşılaştırıyor. Eğer karşılaştırdığı eleman daha küçük ise onu en küçük değer olarak alıyor ve ilk eleman yerine artık diğer elemanları onunla karşılaştırıyor.
+1.SORU-) 
+[7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
+1.adım 2,3,5,8,7,9,4,15,6
+2.adım 2,3,5,8,7,9,4,15,6
+3.adım 2,3,4,8,7,9,5,15,6
+4.adım 2,3,4,5,7,9,8,15,6
+5.adım 2,3,4,5,6,9,8,15,7
+6.adım 2,3,4,5,6,7,8,15,9
+7.adım 2,3,4,5,6,7,8,9,15
+
+
+
+ 	 
+
